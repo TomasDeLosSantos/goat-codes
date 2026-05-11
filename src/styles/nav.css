@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    max-width: 1320px;
+    margin: 1rem auto;
+}
+.nav__menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    padding: 0.5rem;
+    /* border: solid 2px rgba(0, 128, 128, 0.3); */
+    border-radius: 10px;
+}
+.nav__link{
+    text-decoration: none;
+    font-size: 2rem;
+    color: teal;
+    margin: 0.5rem;
+}
+.nav__carrito{
+    text-decoration: none;
+    font-size: 2rem;
+}
+.nav__carrito:visited{
+    color: #000;
+}
